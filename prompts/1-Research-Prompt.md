@@ -54,7 +54,7 @@ PHASE 4 - BACKPORT ASSESSMENT
    - Conflicting variable names
 
 OUTPUT - Provide a structured summary:
-```json
+json
 {
   "cve_id": "CVE-XXXX-XXXXX",
   "package": "{package_name}",
@@ -82,7 +82,7 @@ OUTPUT - Provide a structured summary:
   },
   "recommendation": "PROCEED|CAUTION|BLOCKED"
 }
-```
+
 
 Also provide:
 - Plain English summary of what the vulnerability was
