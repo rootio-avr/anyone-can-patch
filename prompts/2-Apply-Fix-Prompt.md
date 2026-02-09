@@ -65,7 +65,7 @@ OUTPUT - Provide:
 1. Complete list of modified files with the changes made
 2. A unified diff patch file in standard format:
 
-```patch
+patch
 --- a/path/to/file.js
 +++ b/path/to/file.js
 @@ -10,7 +10,10 @@
@@ -76,7 +76,6 @@ OUTPUT - Provide:
 +  }
 +  return processInput(input);
  }
-```
 
 3. Explanation of each change:
    - What security issue does it fix?
