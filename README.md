@@ -4,6 +4,12 @@
 
 These prompts distill the multi-agent Patch Platoon AI system into three simplified prompts suitable for a 30-minute workshop. They focus on **application packages** (npm, pypi) only, not OS packages.
 
+## No Permissions Required
+
+These prompts are designed to run **with no permissions flags** in both Claude Code and Cursor.
+
+The workflow clones repositories, analyzes code, and generates patches purely through local operations. You maintain full control over what happens and when.
+
 ## Prompt 1: Research & Identify Backportable Fix
 
 **When to use:** You have a CVE ID and a vulnerable package version, and need to find the fix commit and assess backportability.
@@ -15,6 +21,14 @@ These prompts distill the multi-agent Patch Platoon AI system into three simplif
 ## Prompt 3: Validate the Patched Package
 
 **When to use:** Patch applied, need to verify it works.
+
+## CVE and package Example
+
+```
+CVE-2025-68675 apache-airflow 2.10.5
+```
+
+Feel free to try out other CVE and package variations.
 
 
 ## For Workshop Participants:
