@@ -106,4 +106,11 @@ CRITICAL LIMITATIONS:
 - If the fix requires new dependencies: Flag as "may require manual testing"
 - If the code structure is too different: Flag as "needs manual adaptation"
 - If you're unsure: Document assumptions and flag for human review
+
+**IMPORTANT: DO NOT COMMIT OR PUSH CHANGES**
+- Create the patch file only
+- Stage changes for review if needed
+- NEVER run git commit or git push
+- Leave it to the user to decide when/how to commit
+
 ```
